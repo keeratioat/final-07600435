@@ -17,6 +17,7 @@ import com.example.speedrecords.model.Speed;
 
 public class SpeedAdapter extends RecyclerView.Adapter<SpeedAdapter.MyViewHolder> {
 
+
     private Context mContext;
     private  Speed[] mSpeed;
     public SpeedAdapter(Context context , Speed[] speeds) {

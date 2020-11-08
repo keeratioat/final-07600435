@@ -40,6 +40,7 @@ public abstract class AppDatabase extends RoomDatabase {
 
     private static void insertInitialData(final Context context) {
 
+
         AppExecutors executors = new AppExecutors();
         executors.diskIO().execute(new Runnable() {
             @Override

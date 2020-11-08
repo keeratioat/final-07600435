@@ -18,7 +18,6 @@ import com.example.speedrecords.model.Speed;
 import com.example.speedrecords.util.AppExecutors;
 
 
-
 public class MainActivity extends AppCompatActivity {
     int count = 0;
     @Override

@@ -5,6 +5,7 @@ import androidx.room.PrimaryKey;
 
 @Entity(tableName = "speed")
 
+
 public class Speed {
     @PrimaryKey(autoGenerate = true)
     public int id;

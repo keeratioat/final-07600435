@@ -9,6 +9,7 @@ import com.example.speedrecords.model.Speed;
 @Dao
 public interface SpeedDao {
 
+
     @Query("SELECT * FROM speed")
     Speed[] showAllData();
 
